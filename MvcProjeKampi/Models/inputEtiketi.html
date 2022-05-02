@@ -1,0 +1,245 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Fikret Erduran Html çalışma sayfası</h1>
+    <form style="background-color:darkseagreen">
+        <br />
+        <br />
+
+        Dosya Tipi Belirleme  :<input accept="" />
+        <!--accept etiketi dosya uzantısı-ses dosyası-video dosyası-resim dosyası--
+        Sadece dosya(file)Tipi inputlar için geçerlidir
+         Server tarafından alınacak dosya tipi burada belirlenir-->
+        <br />
+        <br />
+        Alt Yazı : <input alt="yazı" />     <!--Resim tipi inputlar için geçerlidir Resimlere ek olarak eklenecek yazı burada yazılır-->
+        <br />
+        <br />
+        Oto Tanımlama :<input autocomplete=" " /> <!--İnput elemanları için otomatik tamamlama Devre dışı olup olmadığı burada belirlenir-->
+        <br />
+        <br />
+        Oto Odaklanma Bilgisi :<input autofocus="" />
+        <!--input elemanlarını için oto odaklama özelliğinin devre dışı olup olmadığı
+        burada belirlenir-->
+        <br />
+        <br />
+        Seçili Bilgisi :<input checked="" />
+        <!--İşaret kutusu (checkbox) veya seçenek düğmesi (Radio button)için geçerlidir.
+        İnternet sayfası yüklendiği zaman Bu input elemanının seçili olup olmaması istendiği
+        bilgisi burada verilir-->
+        <br />
+        <br />
+
+        Gösterilecek Yazının Yönü :<input dirname=" " /> <!--Gönderilecek yazının yönü burada belirlenir-->
+        <br />
+        <br />
+        Devre Dışı bilgisi :<input disabled=" " />   <!--İnput elemanlarını devre dışı bırakılıp bırakılmayacağı verisi burada verilir-->
+        <br />
+        <br />
+
+        Form Numarası :<input form=" " />  <!--İnput elemanlarının ait olacağı form un numarası burada bildirilir-->
+
+        <br />
+        <br />
+        URL Alanı :<input src="" />
+        <!--url
+        Bu parametre sadece Resim (Image)tipinden olan input alanları için geçerlidir
+        Gönderme(submit)düğmesi için kullanılacak resimlerin url
+        si bu ekranda belirlenir-->
+        <br />
+        <br />
+        URL Bilgisi :<input formaction=" " />
+        <!--Göder(Submit)ve Resim(Image Tipleri için geçerlidir
+        Form Gönderildiği zaman,input kontrolü yapacak dosyanın  URL bilgisi burada verilir)-->
+        <br />
+        <br />
+        Şifreleme Bilgisi :<input formenctype=" " />
+        <!--Göder(Submit)ve Resim(Image Tipleri için geçerlidir
+        input verisinin ne şekilde şifreleneceği bilgisi burada verilir)-->
+        <br />
+        <br />
+        Kontrol Bilgisi :<input formnovalidate=" " />
+        <!--Form gönderimi yapılmadan önce doğrulanması,kontrol edilmesi
+        gerekmediği bilgisi burada verilir-->
+        <br />
+        <br />
+        Http Method Bilgisi :<input formmethod=" " />
+        <!--Gönder(Submit) ve Resim (Image) Tipleri için geçerlidir
+        input verisinin gönderimi esnasında HTTP Method bilgisi burada verilir-->
+
+
+        <br />
+        <br />
+        Cevap Ekranı :<input formtarget=" " />
+        <!--Gönder(Submit)ve Resim(Image)Tipleri için geçerlidir
+        Form verisi gönderildikten sonra Cevap ekranının nerede gösterilmesi
+        istendiği bilgisi burada verilir-->
+
+        <br />
+        <br />
+        List ID :<input list="" /> <!--İlişki kurulacak <datalist> elemanının özğün ID si burada belirlenir-->
+        <br />
+        <br />
+        Maksimum Değer :<input max="" /> <!--input alanında girilebilecek maksimum deger burada belirlenir-->
+        <br />
+        <br />
+        Minımum Değer :<input min="" /> <!--input alanına girilebilecek minumum deger burada belirlenir-->
+
+
+        <br />
+        <br />
+        Alan bilgisi :<input name="" /> <!--input elemanının ismi bu alanda belirlenir-->
+        <br />
+        <br />
+        Kalıp :<input pattern="" />
+        <!--input alanına girilecek degerin sağlaması gereken kalıp burada regex
+        tipinden belirlenir-->
+        <br />
+        <br />
+        ipucu özelliği :<input placeholder="" /> <!--input alanına girilebilecek  değer hakkında bir ipucu ekranı oluşturulur-->
+
+        <br />
+        <br />
+        Okunur özelliği :<input readonly />
+        <!--Sadece okunur
+        input elemanının sadece okunur özellikde olup olmadıgı burada belirlenir-->
+        <br />
+        <br />
+        Zorunluluğu :<input required />
+        <!--zorunlu ibaresi
+        input elemanına veri sağlanmasının zorunlu olup olmadıgı bilgisi burada verilir-->
+        <br />
+        <br />
+        Değer Aralığı :<input step="" />
+        <!--input alanına girilebilecek yasal değer aralığı burada belirlenir-->
+        <br />
+        <br />
+        Yükseklik Boyutu :<input height=" " />
+        <!--Sadece Resim (Image) tipi için geçerlidir input elemanının yükseklik boyutu
+        pixsel cinsinden burada belirlenir-->
+        <br />
+        <br />
+        Genişlik boyutu  : <input width=" " />
+        <!--Genislik
+        Bu parametre sadece Resim (Image)tipi input
+        alanları için geçerlidir
+        input elemanlarının genişliği pizsel cinsinden burada verilir-->
+        <br />
+        <br />
+        Karakter büyüklüğü ve Karakter Sayısı :<input size=" " />
+        <!--sayı
+        input alanının genişlik büyüklüğü-karakter sayısı cinsinden burada belirlenir-->
+        <br />
+        <br />
+        Maksimun karakter-harf-sayı adedi :<input maxlength="5" />
+        <!--İnput alanına girilebilecek maksimum karakter
+        (harf-sayı-vs adedi burada belirlenir)-->
+        <br />
+        <br />
+        Çoklu Değer : <input multiple />
+        <!--Çoklu değer girilme ibaresi
+        Kullanıcının bir input alanına birden fazla değer girip
+        giremeyeceği burada belirtilir-->
+        <br />
+        <br />
+        Değer : <input value=" " />
+        <!--Value input elemanlarının degeri burada belirlenir-->
+        <br />
+        <br />
+
+        <h1> input Etiketleri ile kullanılan Parametler </h1>
+        <br />
+
+        Button :<input type="button" width="50"/> <!--button oluşturur-->
+        <br />
+        <br />
+
+        Renk :<input type="color" /> <!--color-->
+        <br />
+        <br />
+        Tarih :<input type="date" /> <!--Date-->
+        <br />
+        <br />
+        Time zaman:<input type="time" /> <!--Time-->
+        <br />
+        <br />
+        E mail:<input type="email" /> <!--email-->
+        <br />
+        <br />
+        Dosya :<input type="file" /> <!--file-->
+        <br />
+        <br />
+        Resim :<input type="image" /> <!--image-->
+        <br />
+        <br />
+        AY :<input type="month" /> <!--ay-->
+        <br />
+        <br />
+        Sayı : <input type="number" /> <!--Number sayı-->
+        <br />
+        <br />
+        Şifre :<input type="password" /> <!--password-->
+        <br />
+        <br />
+        Aralık : <input type="range" /> <!--Aralık Range-->
+        <br />
+        <br />
+        Reset : <input type="reset" /> <!--Reset-->
+        <br />
+        <br />
+        Arama : <input type="search" /> <!--Arama search-->
+        <br />
+        <br />
+        Gönderme : <input type="submit" /> <!--Gönderme-->
+        <br />
+        <br />
+        Telefon: <input type="tel" /> <!--Telefon-->
+        <br />
+        <br />
+        Metin :<input type="text" /> <!--text-->
+        <br />
+        <br />
+        URL : <input type="url" /> <!--URL-->
+        <br />
+        <br />
+        Hafta : <input type="week" /> <!--Hafta-->
+        <br />
+        <br />
+         Hidden : <input type="hidden" /> <!--Hidden-->
+        <br />
+        <br />
+        Radio <input type="radio" /> <!--Radio-->
+        <br />
+        <br />
+        işaret kutusu :<input type="checkbox" /> <!--işaret kutusu-->
+        <br />
+        <br />
+        DateTime : <input type="datetime" /> <!--DateTime-->
+        <br />
+        <br />
+        DateTime-Lokal : <input type="datetime-local" /> <!--DateTime-local-->
+        <br />
+        <br />
+        <p>Örnek</p>
+        Giriş alanı :<input type="text" maxlength="5" name="isim" placeholder="lutfen sayı giriniz" />
+        <br />
+        <br />
+        İsim gir :<input type="text" max="4" name="isim" placeholder="isim gir" />
+         <p><h1>Button etiketi</h1></p>
+        <button type="button" onclick="alert" >Fikret Erduran</button>
+
+
+
+
+
+
+    </form>
+
+</body>
+</html>
