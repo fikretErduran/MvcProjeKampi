@@ -1985,17 +1985,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
-    <Content Include="Fikret\HtmlPage2.html" />
-    <Content Include="Fikret\HtmlPage3.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Fikret\HtmlPage1.html" />
-    <Content Include="Fikret\inputEtiketi.html" />
-    <Content Include="Fikret\inputText.html" />
-    <Content Include="Fikret\MetinEtiketleri.html" />
-    <Content Include="Fikret\TabloEtiketleri.html" />
-    <Content Include="Fikret\turk.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="AdminLTE-3.0.4\.babelrc" />

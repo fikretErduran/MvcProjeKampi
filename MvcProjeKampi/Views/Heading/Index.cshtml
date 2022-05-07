@@ -6,13 +6,14 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Burası Başlık Sayfası</h2>
+<h2>this is page Headings</h2>
 <br />
-<table class="table table-bordered">
-    <tr>
+<a href="/Heading/AddHeading/" class="btn btn-info">Yeni Başlık Girişi</a>
+<table class="table table-hover">
+    <tr style="color:darkred">
         <th>ID</th>
-        <th>Başlık</th>
-        <th>Kategory</th>
+        <th>Headings</th>
+        <th>Categories</th>
     </tr>
     @foreach (var item in Model)
             {
@@ -24,4 +25,4 @@
             }
 </table>
 <br />
- <a href="/Heading/AddHeading/" class="btn btn-info">Yeni Başlık Girişi</a>
+ 
