@@ -15,7 +15,7 @@ namespace MvcProjeKampi.Controllers
         // GET: Istatistik
         public ActionResult Index()
         {
-            var result = context.Categories.Count();
+            var result =  context.Categories.Count();
             var result2 = context.Headings.Count(x => x.Category.CategoryID == 7);
             var result3 = context.Writers.Count(x => x.WriterName.Contains("a"));
             var result4 = context.Headings.Max(x => x.Category.CategoryName);

@@ -1,4 +1,4 @@
-﻿  @using EntityLayer.Concrete
+﻿@using EntityLayer.Concrete
 @model List<Category>
 @{
     ViewBag.Title = "Index";
@@ -9,7 +9,7 @@
 <a href="/AdminCategory/AddCategory" class="btn btn-info">NEW THE CATEGORY ADD</a>
 <br />
   <table class="table table-hover">
-      <tr style="color:deeppink">    
+      <tr style="color:darkred">    
           <th>ID</th>
           <th>NAMES</th>
           <th>DESCRİPTİONS</th>
@@ -20,8 +20,8 @@
       @foreach (var item in Model)
       {
           <tr>
-             <th>@item.CategoryID</th>
-             <th>@item.CategoryName</th>
+              <th>@item.CategoryID</th>
+              <th>@item.CategoryName</th>
               <th>@item.CategoryDescription</th>
               <td><a href="/AdminCategory/DeleteCategory/@item.CategoryID" class="btn btn-danger">DELETE</a></td>
               <td><a href="/AdminCategory/EditCategory/@item.CategoryID" class="btn btn-warning">UPDATE</a></td>
@@ -31,5 +31,6 @@
 
   </table>
 <br />
+
 
   
